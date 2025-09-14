@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    background-image: linear-gradient(to right,#44803F,#146152);
+}
+main{
+    background-color: white;
+    border-radius: 10px; /* Arredonda as bordas do quadro onde o texto se encontra */
+    box-shadow: 5px 5px 15px rgba(10, 50, 42, 0.799); /* qtd que vai andar para o lado, qtd que vai andar para baixo, qtd que vai se espalhar e a cor */
+    width: 600px;
+    padding: 10px; /* cria uma borda para o texto nao ficar colado na margem do quadro */
+    margin: auto;
+}
+h1{
+    color: #FF5A33;
+    text-align: center;
+    text-shadow: 1px 1px 2px #b13f25ba;
+}
+h2{
+    color: #146152;
+}
+p {
+    text-align: justify;
+}
