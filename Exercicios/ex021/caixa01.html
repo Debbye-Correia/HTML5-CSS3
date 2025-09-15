@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1{
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            
+            margin: 10px auto 50px auto;
+            /* margin: auto  =  box centralizada na tela automaticamente   */
+            
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: darkmagenta;
+        }
+        a{
+            
+            border: 10px dotted darkslategrey;
+            padding: 10px; /* se forem valores diferentes, começa pelo topo, depois direita, depois embaixo e depois esquerda. Se colocar dois valores, o primeiro vai configurar topo e em baixo e o segundo valor vai configurar direita e esquerda. Se todos os lados forem iguais coloca apenas um valor. */
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 50px;
+            margin-left: 10px;
+
+            outline: 5px dashed darkmagenta;
+
+            /* 
+                Para alterar a caracterisca da caixa (inline ou block), é só adicionar a selecao 'display' e escolher inline (se for uma box-levels), ou block (se for inline-levels) e até mesmo inline-block, que vai deixar o item ainda como inline, porem vai permitir alterar tamanho, altura e largura. 
+            */
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Paragrafos tambem sao exemplos de box-levels, mas os <a href="#">Links sao exemplos de caixas inline-level.</a> Vamos ver como tudo isso funciona.</p>
+
+</body>
+</html>
