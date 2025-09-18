@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: rgb(105, 229, 156);
+    margin: 0px;
+    padding: 0px;
+}
+.idroid {
+    font-family: 'idroid', Times, serif;
+
+}
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(5, 82, 23) ;
+}
+strong{
+    color: rgb(5, 82, 23) ;
+}
+header{
+    background-image: linear-gradient(to top, rgb(3, 37, 2), rgba(5, 63, 3, 0.79) );
+    padding: 30px auto;
+    border: 50px auto 20px auto;
+    
+}
+header > h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 30px;
+    border-top: 50px;
+}
+header > h2 {
+    color: white;
+    text-align: center;
+    font-size: medium;
+}
+nav > a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 30px;
+}
+main{
+    background-color: white;
+    width: 900px;
+    padding: 0px auto 0px auto;
+    margin: 10px auto;
+}
+main > h1 {
+    font-family: 'Times New Roman', Times, serif
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+    padding: 5px;
+    margin: 5px;
+}
+section#video {
+    background-color: rgb(5, 82, 23);
+    padding: 10px;
+    margin: 10px auto;
+}
+iframe {
+    padding: 5px;
+    margin: 10px auto;
+}
+footer{
+    background-color: rgb(5, 82, 23);
+    color: white;
+    padding: 4px;
+    margin: 0px;
+}
+footer > p {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+footer > p > strong {
+    color: white;
+}
