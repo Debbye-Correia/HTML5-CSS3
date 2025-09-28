@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo ducimus quaerat, placeat ipsum aut, ipsam beatae in velit, voluptate quidem quae ratione aspernatur perspiciatis consequuntur nobis. Perferendis molestiae laudantium velit.</p>
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira Pagina</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda Pagina</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira Pagina</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, pariatur minus harum dignissimos sapiente dolores, quis nobis commodi illum repudiandae nihil, accusantium alias explicabo asperiores saepe consequatur modi similique voluptas. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae est deserunt quod. Autem, minus ipsa! Minus perspiciatis vel dolores, suscipit eligendi, soluta ipsa provident modi beatae sit veritatis? Aut, esse?</p>
+    
+    <!-- 
+        "srcdoc" vai te permitir criar um html estatico, para ficar dentro do seu iframe por padrão, até um conteudo ser selecionado.
+        obs: todas as tags que usam aspas "" terão que utilizar as aspas simples '' para nao ocorrer confusão com as aspas da tag "srcdoc".
+        ATENCAO: o recomendado é fazer um arquivo separado para ser carregado ali, e não escrever o codigo html direto no "srcdoc".
+    -->
+    <iframe name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo ducimus quaerat, placeat ipsum aut, ipsam beatae in velit, voluptate quidem quae ratione aspernatur perspiciatis consequuntur nobis. Perferendis molestiae laudantium velit.</p><p><img src='imagens/astronauta.png'></p>"> 
+      
+        <p>Infelizmente seu navegador não é compativel com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius velit dicta reiciendis placeat expedita, cumque, cupiditate totam nisi quisquam molestiae distinctio asperiores in laudantium minus saepe earum dignissimos nulla. Cupiditate.</p>
+    
+</body>
+</html>
